@@ -1,4 +1,4 @@
-angka = []
+
 
 
 # Belajar Input Number
