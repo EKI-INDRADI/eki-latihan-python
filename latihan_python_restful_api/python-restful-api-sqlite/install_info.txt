@@ -1,0 +1,34 @@
+Menggunakan SQLite, Python 3.9, Flask , SQLAlchemy & Marshmallow
+
+pip uninstall virtualenv
+pip uninstall pipenv
+pip install pipenv
+pip install flask
+pip install Flask-SQLAlchemy
+pip install flask-marshmallow
+pip install marshmallow-sqlalchemy
+#pip install requests --upgrade
+
+-----------------------
+
+Install all from Pipfile:
+
+$ pipenv install
+
+-----------------------
+Quick Start Using Pipenv
+# Activate venv
+$ pipenv shell
+
+# Install dependencies
+$ pipenv install
+
+# Create DB  (jika db tidak ada)
+$ python
+>> from app import db
+>> db.create_all()
+>> exit()
+
+# Run Server (http://localhst:5000)
+python app.py
+
