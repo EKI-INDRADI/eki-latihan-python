@@ -1,0 +1,19 @@
+JANGAN MENGGUNAKAN PYTHON 3.9 ADA BUG DI mysqlclient,
+
+MAXIMAL MENGGUNAKAN PYTHON 3.8
+-------------------------------
+pip install flask-cors
+pip install wheel
+pip install Flask-MySQLdb ( otomatis akan meng install pip install mysqlclient)
+pip install pyyaml
+pip install flask-mysql
+
+create database eki-py-rest-mysql;
+use eki-py-rest-mysql;
+create table users (
+    id int auto_increment,
+    name varchar(100) not null,
+    age int(11),
+    primary key (id)
+);
+

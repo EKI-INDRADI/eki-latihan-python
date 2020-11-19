@@ -1,4 +1,4 @@
-Menggunakan SQLite, Python 3.9, Flask , SQLAlchemy & Marshmallow
+Menggunakan SQLite, Python 3.8, Flask , SQLAlchemy & Marshmallow
 
 pip uninstall virtualenv
 pip uninstall pipenv
